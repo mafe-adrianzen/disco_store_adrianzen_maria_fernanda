@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- autor/a del documento -->
+    <meta name="author" content="a_madrianzen@colegiosanlorenzo.org">
+    <meta name="keywords" content="html">
+    <!-- Titulo de la página -->
+    <title>Disco store</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Boostrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <div class="img-text">
+                <img src="static/images/images/music-logo.png" alt="">
+                <h1>Disco store</h1>
+            </div>
+
+            <div class="links">
+                <a href="#">
+                    </i>
+                    Tiendas
+                </a>
+                <a href="#">
+                    </i>
+                    Nosotros
+                </a>
+                <a href="#">
+                    </i>
+                    Contacto
+                </a>
+
+                <button id="boton" onclick="eliminarBoton()" class="nav-button">Comprar</button>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-1">
+
+                <div class="card">
+                    <img src="static/images/images/thriller.png" alt="">
+
+
+                    <div class="parraf">
+                        <h2>Thriller</h2>
+                        <p>Es el sexto álbum de estudio del cantante estadounidense Michael Jackson.
+                            Fue lanzado el 30 de noviembre de noviembre de 1982 por Epic Records.</p>
+                    </div>
+
+                    <div class="btn-1">
+                        <button>Me gusta</button>
+                        <p><span>36</span> me gusta(s)</p>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="static/images/images/isolation.png" alt="">
+
+
+                    <div class="parraf">
+                        <h2>Insolation</h2>
+                        <p>Es el álbum de estudio debut de la cantante Estadounidensec Kali Uchis,
+                            lanzado en todo el mundo el 6 de abril de 2018 por Rinse Recordings.
+                        </p>
+                    </div>
+
+                    <div class="btn-1">
+                        <button>Me gusta</button>
+                        <p><span>21</span> me gusta(s)</p>
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+                    <img src="static/images/images/more-life.png" alt="">
+
+
+                    <div class="parraf">
+                        <h2>More Life</h2>
+                        <p>
+                            Es un mixtape del artista canadiense Drake, aunque este lo escribió como
+                            una playlist. Fue lanzado el 18 de marzo de 2017.
+
+
+                        </p>
+                    </div>
+
+                    <div class="btn-1">
+                        <button>Me gusta</button>
+                        <p><span>12</span> me gusta(s)</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <form action="/" class="formulario-flex">
+
+            <div class="formato-1">
+                <label id="formato">Buscar por formato</label>
+                <div class="entrada-formulario">
+                    <img src="static/images/images/audio.png" alt="">
+                    <select id="formato">
+                        <option value="todos">todos</option>
+                        <option value="vinillos">vinillos</option>
+                        <option value="#">discos</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="formato-1">
+                <label id="genero">Buscar por genero musical</label>
+                <div class="entrada-formulario">
+                    <img src="static/images/images/music-note.png" alt="">
+                    <input type="" placeholder="Pop,Rock, Jazz y más" id="genero">
+                </div>
+            </div>
+
+            <button class="btn">Buscar</button>
+
+        </form>
+    </footer>
+
+    <!-- JS -->
+    <script src="static/js/script.js"></script>
+
+</body>
+
+</html>
